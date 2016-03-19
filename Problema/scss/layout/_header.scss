@@ -1,0 +1,28 @@
+header{
+	font-family:$ff-bebas;
+	background:white;
+	border-bottom:1px solid black;
+	
+	h1 {
+		margin: 0;
+		color: #eb6037;
+		span{
+		color:#f2af9c;
+		}
+	}
+	.navbar{
+	margin-bottom:0;	
+	}
+
+	.navbar-right {
+		margin-top: 10px;
+		color: #f2af9c;
+	}
+	.navbar-nav li a{
+    color: $gray-letra;
+	}
+
+}
+
+//$ff-bebas: 'bebasregular';
+//$ff-helve: 'HelveticaNeue';

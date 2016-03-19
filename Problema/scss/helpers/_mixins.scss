@@ -1,0 +1,28 @@
+
+%background-h2{
+	padding-left:100px;
+	text-transform:uppercase;
+	font-size:20px;
+	line-height:30px;
+	color:$naranja-fuerte;
+	font-family:$ff-bebas;  
+}
+%btn-orange{
+	background:$naranja-fuerte;
+	color:white;
+	padding: 10px 10px 6px;
+	font-family:$ff-bebas;
+}
+%border{
+	border: 1px solid #989898;
+	border-top:0;
+}
+@mixin titulo-line-h2 {
+		background: url("../images/heading-bg.png"); 
+		font-family:'bebasregular';	
+		font-size: 20px; 
+    	margin-left: 125px;
+    	line-height: 20px; 
+    	margin-bottom: 30px;
+    	color: $naranja-fuerte;
+}

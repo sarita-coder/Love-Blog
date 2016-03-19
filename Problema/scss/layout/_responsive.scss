@@ -1,0 +1,28 @@
+@mixin flex-between {
+	display:flex;
+	justify-content: space-between;
+	@media (max-width: 700px){
+	flex-direction: column;
+	}
+}
+.single_service{
+	width:30%;
+	@media (max-width: 700px){
+		width: 100%;
+	}
+	a{
+		@extend %btn-orange;
+	}
+}	
+.single_service_container, .single_blogpost_container, .single_work_container, .single_footer_container{
+	@include flex-between;
+	.single_footer{
+		width: 31%;
+		color: white;
+		padding:0 10px;
+	
+	@media (max-width: 700px){
+		width: 100%;
+	}
+	}
+}

@@ -1,0 +1,43 @@
+.title-about {
+		background: $naranja-fuerte;
+		font-family: $ff-bebas;
+		color: white;
+		padding: 10px 10px 18px;
+}
+.text_about {
+	p {
+		padding-bottom:30px;
+	}
+	p:nth-child(2){
+		border-left: 5px solid $naranja-fuerte;
+		padding-left:10px;
+		color: $naranja-fuerte;
+		padding-bottom:0;
+		margin-left: 50px;
+	}
+	p:nth-child(3){
+		padding-top:30px;
+	}
+}
+.about-aside{
+	h2 {
+		@include titulo-line-h2;
+		margin-bottom:20px;
+	}
+	span{
+		margin-left:-130px;
+	}
+	a{
+		display: block;
+		color: black;
+	}
+}
+.cajitas{
+	display:flex;
+	flex-direction: row;
+	margin-bottom:10px;
+	img{
+		margin-right:10px;
+		border:1px solid $naranja-fuerte;
+	}
+}

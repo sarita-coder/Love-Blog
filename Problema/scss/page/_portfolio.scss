@@ -1,0 +1,35 @@
+.portafolio-nav{
+	ul{
+		display: inline-block;
+		font-family: $ff-bebas;
+	}
+	.nav-pills > li > a {
+		border-radius: 0;
+		top:15px;
+		margin-left: 20px;
+		color: $gray-letra;
+	}
+	.nav-pills > li.active > a{
+		background: $naranja-fuerte;
+		color: white;
+	}
+	.nav-pills{
+		padding-bottom: 90px;
+	}
+}
+.thumbnail, .img-thumbnail, .form-control {
+	border-radius:0px!important;
+	margin-bottom:5px;
+}
+.des-portf-movie{
+	@extend .thumbnail ;
+	font-family: $ff-bebas;
+	h4{
+		color: $gray-letra;
+		margin:5px 0 10px 5px;
+	}
+	h6{
+		color: $naranja-fuerte;
+		margin:5px 0 25px 5px;
+	}
+}
